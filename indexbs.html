@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <title> Alex Hoppe | Professional Educator </title>
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
-*// The goal of this was to create a layout using a grid system.  I'm having trouble getting formats into the containers.  According to www3schools I seem to be on the right track but I'm confused.  I used the 12 column grid layout and tried to put everything into one row.  It doesn't seem to cooperate.  Also this doesn't seem to be commenting out *//
 <body>
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 
@@ -48,16 +46,16 @@
  
 <div class="row-lg">
   <div class="container">
-    <div class="col.col-8"
+    <div class="col-md-8">
     <section class="main-section">
       <h1>Welcome to my Coding Portfolio</h1>
         <div class="row">
-          <div class="col.col-4">
+          <div class="col-md-4">
 
-      <img src="images/HoppeProfile.jpg" class="auth-image" alt="Alex Hoppe">
+      <img class="img-responsive" src="images/HoppeProfile.jpg" alt="Alex Hoppe">
           </div>
 
-          <div class="col.col-8">
+          <div class="col-md-8">
 
       <p class>Hello and Welcome!  Here you will find links to projects completed in UNC's Coding Bootcamp. Additionally you will find links to other projects of mine such as wordpress. </p>
 
@@ -70,14 +68,13 @@
     </section>
   </div>
 
-    <div class="container">
-      <div class="col.col-4">
-      <div id="connect">
+    <div class="container pull-right">
+      <div class="col-4">
         <h2>Connect with Me</h2>
 
-        <a href="https://github.com/amhoppe/"><img src="images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/alexhoppe/"><img src="images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+        <a href="https://github.com/amhoppe/"><img class="img-responsive" src="images/github-128.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/alexhoppe/"><img src="images/linkedin-128.png" class="img-responsive" alt="LinkedIn" /></a>
+        <a href="#"><img src="images/stackoverflow-128.png" class="img-responsive" alt="Stack Overflow" /></a>
       </div>
     </div>
   </div>
